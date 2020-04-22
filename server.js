@@ -1,4 +1,4 @@
-// server.js
+// server.jsn
 // where your node app starts
 
 // we've started you off with Express (https://expressjs.com/)
@@ -28,8 +28,7 @@ app.get("/presenter.html", (request, response) => {
   response.sendFile(__dirname + "/views/presenter.html");
 });
 
-// IM
-ANT STUFF
+// IMPORTANT STUFF
 
 io.on("connection", socket => {
   console.log("a user connected");
