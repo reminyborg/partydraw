@@ -12,3 +12,7 @@ In the project folder run
 ## usage
 
 Run `node server.js`
+
+Go to `http://localhost:9090/presenter.html` for the presenter page
+
+Then open multiple versions of `http://localhost:9090` to draw
