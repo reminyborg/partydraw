@@ -28,7 +28,8 @@ app.get("/presenter.html", (request, response) => {
   response.sendFile(__dirname + "/views/presenter.html");
 });
 
-// IMPORTANT STUFF
+// IM
+ANT STUFF
 
 io.on("connection", socket => {
   console.log("a user connected");
@@ -46,6 +47,6 @@ draw.on("connection", socket => {
 const present = io.of("/present");
 
 // listen for requests :)
-const listener = http.listen(process.env.PORT, () => {
+const listener = http.listen(9090, () => {
   console.log("Your app is listening on port " + listener.address().port);
 });
